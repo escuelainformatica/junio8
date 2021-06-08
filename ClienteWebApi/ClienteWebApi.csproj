@@ -109,12 +109,15 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="cliente\AutorCliente.cs" />
     <Compile Include="cliente\ConfiguracionClienteWS.cs" />
+    <Compile Include="cliente\DolarCliente.cs" />
     <Compile Include="cliente\LibroCliente.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\DolarController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Autor.cs" />
+    <Compile Include="Models\ClasesMindicador.cs" />
     <Compile Include="Models\Libro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -131,6 +134,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Default\" />
+    <Folder Include="Views\Dolar\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
