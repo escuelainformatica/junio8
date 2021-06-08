@@ -24,5 +24,12 @@ namespace junio3_2.Controllers
             LibroRepo.Insertar(lib);
             return View(lib);
         }
+        public ActionResult Procedimiento()
+        {
+            var autor=new Autor();
+            autor.Nombre="ejemplo";
+            AutorRepo.Insertar(autor);
+            return null;
+        }
     }
 }
