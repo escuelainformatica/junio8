@@ -1,0 +1,22 @@
+﻿@model junio3_2.ef.Libro 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Insertar</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            nombre:<input type='text' name="Nombre" value="@Model.Nombre" /><br>
+            autor:<input type='text' name="IdAutor" value="@Model.IdAutor" /><br>
+            <input type="submit" name="Agregar" />
+        </form>
+    </div>
+</body>
+</html>
