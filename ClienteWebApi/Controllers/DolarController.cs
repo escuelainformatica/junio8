@@ -13,7 +13,6 @@ namespace ClienteWebApi.Controllers
         public ActionResult Index()
         {
             var dolar=DolarCliente.Leer();
-
             return View();
         }
     }
